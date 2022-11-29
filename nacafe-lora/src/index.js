@@ -1,4 +1,5 @@
 import './style.css';
+import './index.css';
 
 console.log('funguju!');
 
@@ -9,7 +10,10 @@ import { Footer } from './components/Footer/index.js';
 import { Header } from './components/Header/index.js';
 import { Menu } from './components/Menu/index.js';
 
-const pageelement = document.createElement('div');
-pageelement.classList.add('page');
+const pageElement = document.createElement('div');
+pageElement.classList.add('page');
+
+const main = document.createElement('main');
+main.append(Banner(), Menu(), Gallery(), Contact());
 
 document.querySelector('#app').append(pageElement);
