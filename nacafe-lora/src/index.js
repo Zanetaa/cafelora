@@ -3,12 +3,12 @@ import './index.css';
 
 console.log('funguju!');
 
-import { Banner } from './components/Banner/index.js';
-import { Contact } from './components/Contact/index.js';
-import { Gallery } from './components/Gallery/index.js';
-import { Footer } from './components/Footer/index.js';
-import { Header } from './components/Header/index.js';
-import { Menu } from './components/Menu/index.js';
+import { Banner } from './components/Banner/banner.js';
+import { Contact } from './components/Contact/contact.js';
+import { Gallery } from './components/Gallery/gallery.js';
+import { Footer } from './components/Footer/footer.js';
+import { Header } from './components/Header/header.js';
+import { Menu } from './components/Menu/menu.js';
 
 const pageElement = document.createElement('div');
 pageElement.classList.add('page');
